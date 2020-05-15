@@ -1,0 +1,30 @@
+@media (max-width:991px) {
+  main .container,
+  .overview .container {
+    width: 90%;
+    margin: auto;
+  }
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
+    width:90%;
+    margin: 0 auto 1rem;
+  }
+
+  .card {
+    width: 90%;
+    margin: 0 auto 1rem;
+  }
+
+  .overview {
+    padding: 51rem 0 0;
+  }
+}
+
+@media (max-width:767px) {
+  hr {
+    display: block;
+    background: #63687E;
+  }
+}
